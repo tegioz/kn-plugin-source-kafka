@@ -1,0 +1,29 @@
+# Artifact Hub package metadata file
+version: 0.1.0
+name: kn-plugin-source-kafka
+displayName: Knative plugin source Kafka
+createdAt: 2023-02-01T00:00:00Z
+description: Knative plugin for managing Kafka event sources
+license: Apache-2.0
+homeURL: https://github.com/knative-sandbox/kn-plugin-source-kafka
+keywords:
+  - knative
+  - plugin
+  - kafka
+  - serverless
+links:
+  - name: Source
+    url: https://github.com/knative-sandbox/kn-plugin-source-kafka
+changes:
+  - kind: added
+    description: Some new cool feature
+  - kind: fixed
+    description: A hard to reproduce annoying issue
+provider:
+  name: Knative community
+recommendations:
+  - url: https://artifacthub.io/packages/olm/community-operators/knative-operator
+install: |-
+  Brief install instructions in markdown format
+
+  Content added here will be displayed when the INSTALL button on the package details page is clicked.
